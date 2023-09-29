@@ -12,7 +12,7 @@ For an image, it has below formats.
 | format | intro |
 | --- | --- |
 | `dynamic range` | The brightness range of the display signal, determining whether it's in HDR or SDR format. |
-| `signal status` | The state of the signal, which can be linear optical or non-linear electrical, possibly transformed using different EOTFs and OETFs. |
+| `signal status` | The state of the signal, which can be optical or electrical, transformed using different EOTFs/OETFs. |
 | `color depth` | The number of bits used by each color channel. |
 | `color space` | Determining how colors are represented and the gamut coverage. |
 | `color format` | Specifying the arrangement of color channels within a pixel. |
@@ -40,8 +40,8 @@ This work makes it easy to convert images with arbitrary formats. Currently supp
 
 | Original HDR | To SDR | Back To HDR |
 | --- | --- | --- |
-| <img src="sample/origin_field_hdr_linear_16.png" width = "400" height = "270" align=center /> | <img src="sample/output_field_sdr_709_8.png" width = "400" height = "270" align=center /> | <img src="sample/output_field_hdr_linear_16.png" width = "400" height = "270" align=center /> |
-| <img src="sample/origin_cloud_hdr_linear_8.png" width = "400" height = "167" align=center /> | <img src="sample/output_cloud_sdr_709_8.png" width = "400" height = "167" align=center /> | <img src="sample/output_cloud_hdr_linear_8.png" width = "400" height = "167" align=center /> |
+| <img src="sample/origin_field_hdr_linear_16.png" width = "300" height = "203" align=center /> | <img src="sample/output_field_sdr_709_8.png" width = "300" height = "203" align=center /> | <img src="sample/output_field_hdr_linear_16.png" width = "300" height = "203" align=center /> |
+| <img src="sample/origin_cloud_hdr_linear_8.png" width = "300" height = "125" align=center /> | <img src="sample/output_cloud_sdr_709_8.png" width = "300" height = "125" align=center /> | <img src="sample/output_cloud_hdr_linear_8.png" width = "300" height = "125" align=center /> |
 
 ## Todo
 - Create more friendly interface, maybe turn the project into a command line tool.
